@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Nintendo</title>
+<link href="css/games_jq.css" rel="stylesheet" type="text/css" />
+<script>
+function increseMainFontSize(){
+	
+	var main = document.getElementById('mainContent');
+	main.style.fontSize = '20px'; 
+	
+	var header = document.getElementById('logo');
+	header.style.fontSize = '20px';
+	
+	var footer = document.getElementsByTagName('footer');
+	footer.style.fontSize = '20px';
+	
+	if(main.style.fontSize == '20'){
+		main.style.fontSize = '25';
+	}
+	if(header.style.fontSize == '20'){
+		header.style.fontSize = '25';
+		
+	}
+
+	
+}
+
+function decreseMainFontSize(){
+	
+	var main = document.getElementById('mainContent');
+	main.style.fontSize = '15px'; 
+	
+	var header = document.getElementById('logo');
+	header.style.fontSize = '15px';
+	
+	var footer = document.getElementsByTagName('footer');
+	footer.style.fontSize = '15px';
+}
+
+</script>
+</head>
+
+<body>
+<div id="container">
+  <header>
+  <header id="logo">
+<a href="index.html"><img src="images/RetroGames_logo.jpg" width="669"   height="242" alt="logo image" /></a>
+    <h1>Nintendo</h1>
+  
+    
+      <nav>
+        <ul>
+        <li> <a href="sony.html">Sony </a></li>
+          <li><a href="microsoft.html">Microsoft </a></li>
+          <li><a href="nintendo.html">Nintendo</a></li>
+          <li><a href="Atari.xml">Atari</a></li>
+          
+          <li><a href="videoGameTimeline.html">Video game timeline</a></li>
+          <li><a href="contactUs.php">Contact us</a></li>
+        </ul>
+      </nav>
+           
+       <p id="click">Please click on any of the buttons above to find out more.</p>
+      
+</header>
+<div id="mainContent">
+      <div id="vision">
+      <br><br><br><br>
+       
+<article id="info">here you will find lots of info about the gaming giant that is nintendo. from when they started to the present day<br>  The worldwide pioneer in the creation of interactive entertainment, Nintendo Co., Ltd., of Kyoto, Japan, manufactures and markets hardware and software for its Wii U™ and Wii™ home consoles, Nintendo 3DS™ and Nintendo DS™ family of portable systems. Since 1983, when it launched the Nintendo Entertainment System™, Nintendo has sold more than 4.2 billion video games and more than 669 million hardware units globally, including the current-generation Wii U, Wii, Nintendo 3DS, Nintendo DS, Nintendo DSi™ and Nintendo DSi XL™, as well as the Game Boy™, Game Boy Advance™, Super NES™, Nintendo 64™ and Nintendo GameCube™ systems. It has also created industry icons that have become well-known, household names such as Mario™, Donkey Kong™, Metroid™, Zelda™ and Pokémon™. A wholly owned subsidiary, Nintendo of Europe, based in Grossostheim, Germany, was established in 1990 and serves as headquarters for Nintendo's operations in Europe. </article> 
+
+<div id = "info">
+<p>
+The Nintendo 64 stylized as NINTENDO64 and often referred to as N64, is Nintendo's third home video game console for the international market. Named for its 64-bit central processing unit,It is Nintendo's last home console to use ROM cartridges to store games. While the N64 was succeeded by Nintendo's GameCube in November 2001, N64 consoles remained available until the system was retired in late 2003.
+</p>
+</div>
+
+<div id = 'gameImages'><img src="images/N64.jpg" width="370" height="200" alt="xboxone">
+</div>
+<footer>
+
+  <div id ="compInfo"> 
+ <hr>
+ <div id="facebook"> <a href="https://www.facebook.com/Nintendo?fref=ts"><img src="images/icon_facebook.png" width="24" height="25" alt="FB" /></a>
+   </div>
+   <h3>click here to show copyright info</h3>
+   
+    
+  
+    <small>RetroGames  LTD 2014 ©<br>
+    25 rainbow road<br>
+    mushroom kingdom<br>
+    CA12 7UW</small>
+     
+ </div>
+  </footer> 
+ <footer>
+ 
+  
+   
+   
+   <div id = "btnAdd">
+   <a href="javascript:;" onclick="decreseMainFontSize()"><img src="images/Button-Delete-icon.png" img class = "textSizeButtonD" width="64" height="64" />
+   
+   <a href="javascript:;" onClick="increseMainFontSize()"><img src="images/Button-Add-icon.png" img class = "textSizeButtonI" width="64" height="64" alt="increase text" />
+      </div>
+ 
+   
+   
+ 
+ 
+ 
+
+
+
+
+
+<script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+
+<script>
+$(function(){
+	//$('footer').append('' );
+	//$('footer').append('');
+	//$('footer').append('<p> </p>');
+	//$('footer').append(' <p>');
+	 
+	 
+	
+	$('h3 + small').hide();
+	$('h3').click(function(e){
+	var para = $(this).next('small');
+	para.toggle();
+	if (para.css('display') == 'none') 
+	{ $(this).css('background-image','url(images/arrow-r.png)', 'background-repeat: no repeat');
+      
+	}
+	else 
+	{ $(this).css('background-image', 'url(images/arrow-down.png)');
+    }
+
+	})
+    
+        .css('cursor', 'pointer');        			     
+  
+   
+	
+});
+
+
+</script>
+
+</footer>
+      
+</body>
+</html>

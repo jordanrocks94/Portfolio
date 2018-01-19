@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/css" href="css/games_jq.css"?>
+
+<atari>
+<game>	
+	<title> asteroids </title>
+	<releseDate>November 1979 </releseDate>
+	<price> 5.00</price>	
+</game>	
+<game>	
+	<title> breakout </title>
+	<releseDate>November 1976 </releseDate>
+	<price> 5.00</price>	
+</game>	
+<game>	
+	<title> pong </title>
+	<releseDate>November 1972 </releseDate>
+	<price> 5.00</price>	
+</game>	
+<game>	
+	<title> space invaders </title>
+	<releseDate>November 1978 </releseDate>
+	<price> 5.00</price>	
+</game>	
+<game>	
+	<title> pac man </title>
+	<releseDate>November 1980 </releseDate>
+	<price> 5.00</price>	
+</game>	
+<game>	
+	<title> battle zone </title>
+	<releseDate>November 1980 </releseDate>
+	<price> 5.00</price>	
+</game>	
+<game>	
+	<title> donkey kong </title>
+	<releseDate>November 1981 </releseDate>
+	<price> 5.00</price>	
+</game>	
+<game>	
+	<title> ms pac man </title>
+	<releseDate>November 1981 </releseDate>
+	<price> 5.00</price>	
+</game>	
+<game>	
+	<title> star raisers </title>
+	<releseDate>November 1979 </releseDate>
+	<price> 5.00</price>	
+</game>
+</atari>
+
+

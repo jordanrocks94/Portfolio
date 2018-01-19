@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Show/Hide</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h1>Showing and Hiding</h1>
+<p>With jQuery, it's easy to show and hide elements dynamically.</p>
+<h2>Item One</h2>
+<p>Eu fugiat nulla pariatur. Sed do eiusmod tempor incididunt lorem ipsum dolor sit amet, sunt in culpa. Ut enim ad minim veniam, qui officia deserunt duis aute irure dolor. Excepteur sint occaecat velit esse cillum dolore ut labore et dolore magna aliqua.</p>
+<h2>Item Two</h2>
+<p>Consectetur adipisicing elit, quis nostrud exercitation duis aute irure dolor. Ut labore et dolore magna aliqua. Ut aliquip ex ea commodo consequat.</p>
+<h2>Item Three</h2>
+<p>Lorem ipsum dolor sit amet, in reprehenderit in voluptate ut labore et dolore magna aliqua. Quis nostrud exercitation qui officia deserunt duis aute irure dolor. Ut aliquip ex ea commodo consequat.</p>
+
+<script type="text/javascript" src="../jquery-1.5.2.min.js"></script>
+
+<script>
+$(function(){
+	//$('footer').append('' );
+	//$('footer').append('');
+	//$('footer').append('<p> </p>');
+	//$('footer').append(' <p>');
+	 
+	 
+	
+	$('h2 + p').hide();
+	$('h2').click(function(e){
+	   $(this).next('p').toggle();
+	});
+    
+                			     
+  
+   
+	
+});
+</script>
+</body>
+</html>

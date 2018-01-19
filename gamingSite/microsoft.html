@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Microsoft</title>
+<link href="css/desktop.css" rel="stylesheet" type="text/css" />
+
+<script>
+function increseMainFontSize(){
+	
+	var main = document.getElementById('mainContent');
+	main.style.fontSize = '20px'; 
+	
+	var header = document.getElementById('logo');
+	header.style.fontSize = '20px';
+	
+	var footer = document.getElementsByTagName('footer');
+	footer.style.fontSize = '20px';
+	
+	if(main.style.fontSize == '20'){
+		main.style.fontSize = '25';
+	}
+	if(header.style.fontSize == '20'){
+		header.style.fontSize = '25';
+		
+	}
+
+	
+}
+
+function decreseMainFontSize(){
+	
+	var main = document.getElementById('mainContent');
+	main.style.fontSize = '15px'; 
+	
+	var header = document.getElementById('logo');
+	header.style.fontSize = '15px';
+	
+	var footer = document.getElementsByTagName('footer');
+	footer.style.fontSize = '15px';
+}
+
+</script>
+</head>
+
+<body>
+<div id="container">
+  <header>
+  <header id="logo">
+<a href="index.html"><img src="images/RetroGames_logo.jpg" width="669"   height="242" alt="logo image" /></a>
+    <h1>Microsoft</h1>
+  
+    
+      <nav>
+        <ul>
+        <li> <a href="sony.html">Sony </a></li>
+          <li><a href="microsoft.html">Microsoft </a></li>
+          <li><a href="nintendo.html">Nintendo</a></li>
+          <li><a href="Atari.xml">Atari</a></li>
+          
+          <li><a href="videoGameTimeline.html">Video game timeline</a></li>
+          <li><a href="contactUs.php">Contact us</a></li>
+        </ul>
+      </nav>
+           
+      
+    </header>
+<div id="mainContent">
+      <span id="vision">
+      <article><br><br><br><br><br><br  >here you will find lots of info on Bill gate's excellent company Microsoft 
+        <p>Please click on any of the links above to find out more.</p></article>
+        
+<div id = "info">
+<p>
+Microsoft Corporation is an American multinational corporation headquartered in Redmond, Washington, that develops, manufactures, licenses, supports and sells computer software, consumer electronics and personal computers and services.</p>
+
+<p> the original Xbox was released on November 15, 2001 in North America, February 22, 2002 in Japan, and March 14, 2002 in Australia and Europe. It was Microsoft's first foray into the gaming console market. As part of the sixth-generation of gaming, the Xbox competed with Sony's PlayStation 2, Sega's Dreamcast and Nintendo's GameCube.</p>
+</div>
+<div id = 'gameImages'><img src="images/Xbox-console.jpg" width="370" height="200" alt="xbox">
+
+</div>
+                
+<div id = "info">
+<p> The Xbox 360 was released as the successor of the original Xbox in November 2005, competing with Sony's PlayStation 3 and Nintendo's Wii as part of the seventh generation of video game consoles. As of June 30, 2013, 78.2 million Xbox 360 consoles have been sold worldwide. The Xbox 360 was officially unveiled on MTV on May 12, 2005, with detailed launch and game information divulged later that month at the Electronic Entertainment Expo </p>
+</div>       
+
+<div id = 'gameImages'><img src="images/Xbox360.jpg" width="370" height="200" alt="xbox360"> 
+</div>
+        
+<div id = "info">
+<p> The Xbox One was released on November 22, 2013 in North America, as the successor of the Xbox 360. The Xbox One competes with Sony's PlayStation 4 and Nintendo's Wii U as part of the eighth generation of video game consoles.
+Announced on May 21, 2013,[17] the Xbox One now has a large emphasis on internet-based features; including the ability to record and stream gameplay, and the ability to integrate with a set-top box to watch cable or satellite TV through the console with an enhanced guide interface and Kinect-based voice control. </p>
+</div>
+
+<div id = 'gameImages'><img src="images/Xboxone.jpg" width="370" height="200" alt="xboxone">
+
+</div>
+
+       
+        
+        
+        
+<div id ="compInfo"> 
+ <hr>
+ <div id="facebook"> <a href="https://www.facebook.com/MicrosoftUK?fref=ts"><img src="images/icon_facebook.png" width="24" height="25" alt="FB" /></a>
+   </div>
+   <h3>click here to show copyright info</h3>
+   
+    
+  
+    <small>RetroGames  LTD 2014 ©<br>
+    25 rainbow road<br>
+    mushroom kingdom<br>
+    CA12 7UW</small>
+     
+ </div>
+        <footer>
+   
+   
+   
+   <script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+
+<script>
+$(function(){
+	//$('footer').append('' );
+	//$('footer').append('');
+	//$('footer').append('<p> </p>');
+	//$('footer').append(' <p>');
+	 
+	 
+	
+	$('h3 + small').hide();
+	$('h3').click(function(e){
+	var para = $(this).next('small');
+	para.toggle();
+	if (para.css('display') == 'none') 
+	{ $(this).css('background-image','url(images/arrow-r.png)', 'background-repeat: no repeat');
+      
+	}
+	else 
+	{ $(this).css('background-image', 'url(images/arrow-down.png)');
+    }
+
+	})
+    
+        .css('cursor', 'pointer');        			     
+  
+   
+	
+});
+
+
+</script>
+
+<div id = "btnAdd">
+   <a href="javascript:;" onclick="decreseMainFontSize()"><img src="images/Button-Delete-icon.png" img class = "textSizeButtonD" width="64" height="64" />
+   
+   <a href="javascript:;" onClick="increseMainFontSize()"><img src="images/Button-Add-icon.png" img class = "textSizeButtonI" width="64" height="64" alt="increase text" />
+   
+      </div>
+   
+ </footer>
+   <p>&nbsp;</p>
+</body>
+</html>

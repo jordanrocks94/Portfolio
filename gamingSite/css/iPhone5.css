@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+#container {
+    width: 100%;
+}
+
+
+#logo {
+    height:auto;
+    width:27px;
+	padding-right:25px;
+    image: url(/images/RetroGames_logo.jpg);
+    margin-left:auto;
+    margin-right:auto;
+}
+
+nav {
+    padding-top:100px;
+}
+nav ul {
+    font-size:24px;
+}
+nav ul a {
+    padding-right: 0;
+    width:97%;
+}
+nav ul li {
+    float:none;
+}
+nav ul li:hover {
+    margin-top:0;
+}
+
+#maincontent {
+    margin-top: 0;
+    padding: 0;
+}
+
+#vision {
+    background-image:none;
+    width: 280px;
+    height:auto;
+    font-size:14px;
+    line-height:normal;
+    padding-top:0px;
+}
+
+pod {
+    width: 305px;
+}
+.podContent {
+    width: 302px;
+    height:180px;
+}
+footer p {
+    margin-left: 5px;
+}
+#facebookTwitter {
+    margin-right:5px;
+}
+
+.pod {
+    width: 305px;
+    padding-bottom:0;
+}
+.pod h1 {
+    margin-bottom:0;
+}
+.podContent {
+    width: 302px;
+    height:180px;
+    display:none;
+}
+#news .podContent {
+    display:block;
+}
+
+#logop{
+	width:150px;
+	
+
+}
